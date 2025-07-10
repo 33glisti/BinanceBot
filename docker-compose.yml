@@ -1,0 +1,7 @@
+version: '3'
+services:
+  binance-bot:
+    build: .
+    container_name: binance-bot
+    volumes:
+      - ./settings.json:/app/settings.json

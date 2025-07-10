@@ -80,9 +80,6 @@ def place_opposite_order(client, original_order, settings, symbol_config):
         price = order_price - (order_price * profit) - ((order_price * volume) * fee)
         side = SIDE_BUY
 
-        if price < price_min:
-            log_info(f"[INFO] SKIPPED: {symbol} BUY price {price:.2f} < min {price_min:.4f}")
-            return
         if price > price_max:
             log_info(f"[INFO] SKIPPED: {symbol} BUY price {price:.2f} > max {price_max:.4f}")
             return
