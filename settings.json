@@ -1,0 +1,36 @@
+{
+  "global": {
+    "fee_percent": 0.1,
+    "poll_interval_sec": 10,
+    "api_key": "",
+    "api_sec": "",
+    "confirm_order": false
+  },
+  "symbols": {
+    "XRPEUR": {
+      "profit_percent": 3.333,
+      "is_active": true,
+      "price_min": 1.0000,
+      "price_max": 2.0000,
+      "volume_sell": 10.0,
+      "volume_buy": 10.0,
+      "volume_precision": 1,
+      "price_precision": 4,
+      "adaptive_limit_percent": 0.5,
+      "moving_average_period_min": 5
+    },
+    "SOLEUR": {
+      "profit_percent": 7.777,
+      "is_active": true,
+      "price_min": 100,
+      "price_max": 1000,
+      "volume_sell": 1.1,
+      "volume_buy": 2.2,
+      "volume_precision": 3,
+      "price_precision": 2,
+      "adaptive_limit_percent": 0.5,
+      "moving_average_period_min": 5
+
+    }
+  }
+}
