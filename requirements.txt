@@ -1,0 +1,2 @@
+python-binance>=1.0.17
+sqlalchemy>=2.0.0
